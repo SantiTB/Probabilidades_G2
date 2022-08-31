@@ -1,6 +1,28 @@
 \item En una canasta hay 30 manzanas de las cuales 5 están machucadas. Si elijo al azar, con orden y sin reemplazo 6 manzanas,
     \begin{enumerate}
-        \item Defina un espacio muestral. ¿Cuántos elementos tiene?¿Es equiprobable?
+        \item Defina un espacio muestral. ¿Cuántos elementos tiene?¿Es equiprobable?\e\\
+            Sea $M=$"machucada", $N=$"no machucada". Se tiene que\[\Omega=\{MMMMMN,MMMMNM,MMMNMM,MMNMMM,MNMMMM,NMMMMM,\cdots\}\]
+            Sean los eventos:\begin{center}
+                $A_i=$"salen $i$ manzanas machucadas"
+            \end{center}
+            Se tiene que \begin{align*}
+                \#A_0=\frac{6!}{6!}\quad\#A_1=\frac{6!}{5!}\quad\#A_2=\frac{6!}{4!2!}\\
+                \#A_3=\frac{6!}{3!3!}\quad\#A_4=\frac{6!}{2!4!}\quad\#A_5=\frac{6!}{5!}
+            \end{align*}
+            La unión de estos eventos da como resultado todo el espacio muestral. Entonces,\[\#\Omega=\sum\limits_{i=0}^5\#A_i\]
+            No es equiprobable. Sea el evento $B=$"no sale ninguna machucada" y $C=\{NMMMMM\}$ se tiene que \begin{align*}
+                P(B)=\frac{25\cdot24\cdot23\cdot22\cdot21\cdot20}{\#\Omega}\\
+                P(C)=\frac{25\cdot5\cdot4\cdot3\cdot2\cdot1}{\#\Omega}
+            \end{align*}
+            En donde se puede ver que\[P(B)\neq P(C)\]
         \item ¿Cuál es la probabilidad de que exactamente 3 de ellas estén machucadas?
-        \item ¿Cuál es la probabilidad de que la tercera esté machucada?
+            \[P(\text{tres machucadas})=\frac{\#A_3}{\#\Omega}\]
+        \item ¿Cuál es la probabilidad de que la tercera esté machucada?\e\\
+            Sea $E_i=$"hay $i$ machucadas con una de ellas en la tercera posición"\\
+            Esta situación se puede dar de varias formas. Supongamos que hay una sóla machucada en la tercer posición, para la primer manzana hay 25 opciones, para la segunda 24, para la tercera 5 (una de las machucadas), para la cuarta 23, la quinta 22 y la sexta 21.\[\#E_1=25\cdot24\cdot5\cdot23\cdot22\cdot21\]
+            También puede pasar que tenga 2 machucadas, una de ellas está en la tercer posición y supongamos que la otra sale primero, entonces hay 5 opciones para la primera, 25 para la segunda, 4 para la tercera, 24 para la cuarta, 23 para la quinta y 22 para la sexta. Pero, la segunda machucada en realidad puede estar en cualquier posición, excepto la tercera, así que \[\#E_2=5\cdot25\cdot4\cdot24\cdot23\cdot22\cdot\frac{5!}{4!}\]
+            Para que hayan tres machucadas y una de ellas esté en la tercera posición\[\#E_3=5\cdot4\cdot3\cdot25\cdot24\cdot23\cdot\frac{5!}{2!3!}\]
+            Para 4 machucadas\[\#E_4=5\cdot4\cdot3\cdot2\cdot25\cdot24\cdot\frac{5!}{3!2!}\]
+            Para 5\[\#E_5=5\cdot4\cdot3\cdot2\cdot1\cdot25\cdot\frac{5!}{4!}\]
+            Por lo tanto, \[P(\text{la tercera está machucada})=\frac{\sum\limits_{i=1}^5\#E_i}{\#\Omega}\]
     \end{enumerate}
