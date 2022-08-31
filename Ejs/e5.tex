@@ -1,0 +1,3 @@
+\item Se eligen al azar dos números entre los primeros números $1,2,\dots,n$. ¿Cuál es la probabilidad que sean consecutivos si los escogemos con sustitución? ¿Y si lo hacemos sin sustitución?.\e\\
+    Si es con sustitución, hay $n$ opciones para el primero, si se se seleccionó el 1 o $n$ hay 1 opción para el segundo, para los $n-2$ restantes hay 2. Los casos totales son $n^2$, entonces\[P(\text{consecutivos con sustitución})=\frac{(n-2)\cdot2+2\cdot1}{n^2}=\frac{2n-2}{n^2}=\frac{2}{n}-\frac{2}{n^2}\]
+    El caso sin sustitución sólo me cambia los casos totales \[P(\text{consecutivos sin sustitución})=\frac{2n-2}{n\cdot(n-1)}=\frac{2}{n}\]
