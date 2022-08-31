@@ -782,12 +782,30 @@ INPUT .\Ejs\e1.tex
 INPUT Ejs\e1.tex
 INPUT .\Ejs\e1.tex
 INPUT Ejs\e1.tex
+INPUT C:\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\MikTex\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\MikTex\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 OUTPUT c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.pdf
 INPUT C:\Users\benit\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.aux
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
