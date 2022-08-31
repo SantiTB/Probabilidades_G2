@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.29)  31 AUG 2022 09:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.29)  31 AUG 2022 09:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -690,7 +690,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (Ejs/e1.tex) (Ejs/e2.tex) (Ejs/e3.tex) (Ejs/e4.tex [1
 
-{C:/Users/benit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (Ejs/e5.tex) (Ejs/e6.tex) (Ejs/e7.tex [2]) (Ejs/e8.tex) (Ejs/e9.tex) (Ejs/e10.tex) (Ejs/e11.tex) (Ejs/e12.tex [3]) (Ejs/e13.tex) (Ejs/e14.tex) (Ejs/e15.tex) (Ejs/e16.tex) (Ejs/e17.tex) (Ejs/e18.tex) (Ejs/e19.tex) [4] (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.aux) ) 
+{C:/Users/benit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (Ejs/e5.tex) (Ejs/e6.tex) (Ejs/e7.tex [2]) (Ejs/e8.tex) (Ejs/e9.tex) (Ejs/e10.tex [3]) (Ejs/e11.tex) (Ejs/e12.tex) (Ejs/e13.tex) (Ejs/e14.tex) (Ejs/e15.tex) (Ejs/e16.tex) (Ejs/e17.tex) (Ejs/e18.tex) (Ejs/e19.tex) [4] (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.aux) ) 
 Here is how much of TeX's memory you used:
  17821 strings out of 478582
  345871 string characters out of 2860759
@@ -700,7 +700,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,8n,80p,630b,321s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.pdf" (4 pages, 118565 bytes).
+Output written on "c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.pdf" (4 pages, 119596 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
