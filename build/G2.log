@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.29)  30 AUG 2022 22:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.29)  30 AUG 2022 23:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -688,21 +688,21 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
  (C:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (Ejs/e1.tex) [1
+) (Ejs/e1.tex) (Ejs/e2.tex) (Ejs/e3.tex) (Ejs/e4.tex) (Ejs/e5.tex) (Ejs/e6.tex) (Ejs/e7.tex) (Ejs/e8.tex) (Ejs/e9.tex) (Ejs/e10.tex) (Ejs/e11.tex) (Ejs/e12.tex) (Ejs/e13.tex) (Ejs/e14.tex) (Ejs/e15.tex) (Ejs/e16.tex) (Ejs/e17.tex) (Ejs/e18.tex) (Ejs/e19.tex) [1
 
 {C:/Users/benit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.aux) ) 
 Here is how much of TeX's memory you used:
- 17729 strings out of 478582
- 343357 string characters out of 2860759
- 647715 words of memory out of 3000000
- 35573 multiletter control sequences out of 15000+600000
+ 17820 strings out of 478582
+ 345863 string characters out of 2860759
+ 652715 words of memory out of 3000000
+ 35610 multiletter control sequences out of 15000+600000
  475902 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,80p,545b,220s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.pdf" (1 page, 83796 bytes).
+ 84i,6n,80p,630b,244s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.pdf" (1 page, 100057 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

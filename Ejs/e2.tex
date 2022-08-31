@@ -1,0 +1,9 @@
+\item Un experimentador está estudiando los efectos de la temperatura, la presión y el tipo de catalizador en la producción de cierta reacción química. Se consideran para las experiencias tres temperaturas diferentes, cuatro presiones distintas y cinco catalizadores diferentes. Si cualquier experimento particular implica utilizar una temperatura, una presión y un catalizador:
+    \begin{enumerate}
+        \item ¿Cuántos experimentos distintos son posibles realizar?\e\\
+            Hay 3 temperaturas, 4 presiones y 5 catalizadores. Entonces,\[\#experimentos=3\cdot4\cdot5=60\]
+        \item ¿Cuántos experimentos distintos existen que impliquen el uso de la temperatura más baja y las dos presiones más bajas?\e\\
+            Hay una única temperatura más baja, y hay una restricción a 2 presiones en particular, por ende\[\#experimentos^\prime=1\cdot2\cdot5=10\]
+        \item Suponga que se tiene que realizar cinco experimentos diferentes el primer día de experimentación y los experimentos se realizar al azar. ¿Cuál es la probabilidad de que se utilice un catalizador diferente en cada experimento?\e\\
+            Los casos favorables: el primer experimento no tiene restricción, entonces hay 5 opciones. Para el segundo, no puedo usar el catalizador del primero, así que hay 4 opciones, por los mismos motivos, para el tercero hay 3, para el cuarto 2 y para el quinto 1. Casos totales: no hay restricción alguna en los experimentos, así que siendo $A=$"no se repite el catalizador", se tiene que\[P(A)=\frac{\text{casos favorables}}{\text{casos totales}}=\frac{5!}{5^5}\]
+    \end{enumerate}
