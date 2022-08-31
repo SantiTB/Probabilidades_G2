@@ -1,1 +1,14 @@
-\item Los dados, tal y como los conocemos actualmente, se hicieron muy populares en la edad media. Chevalier De Mere propuso un enigma matemático: ¿Qué es más probable? ¿sacar al menos un 6 en cuatro tiradas con un sólo dado, o sacar al menos un doble seis en 24 tiradas con dos dados?
+\item Los dados, tal y como los conocemos actualmente, se hicieron muy populares en la edad media. Chevalier De Mere propuso un enigma matemático: ¿Qué es más probable? ¿sacar al menos un 6 en cuatro tiradas con un sólo dado, o sacar al menos un doble seis en 24 tiradas con dos dados?\e\\
+    Sea $A=$"sale al menos un 6" y $A_i=$"sale el 6 en el intento $i$". Entonces, \[P(A)=P(A_1\cup A_2\cup A_3\cup A_4)\]
+    Por el principio de inclusión-exclusión\[P(A)=\sum\limits_{i=1}^4P(A_i)-\sum\limits_{i=1}^4\sum\limits_{j>i}^4P(A_iA_j)+\sum\limits_{i=1}^4\sum\limits_{j>i}^4\sum\limits_{k>j}^4P(A_iA_jA_k)-P(A_1A_2A_3A_4)\]
+    En donde 
+    \begin{align*}
+        P(A_i)&=\frac{1\cdot5\cdot5\cdot5}{6^4}=\frac{5^3}{6^4}\quad\forall i\\
+        P(A_iA_j)&=\frac{1\cdot1\cdot5\cdot5}{6^4}=\frac{5^2}{6^4}\quad\forall i\neq j\\
+        P(A_iA_jA_k)&=\frac{1\cdot1\cdot1\cdot5}{6^4}=\frac{5}{6^4}\quad\forall i\neq j\neq k\\
+        P(A_1A_2A_3A_4)&=\frac{1}{6^4}
+    \end{align*}
+    Entonces
+    \[P(A)=\binom{4}{1}\frac{5^3}{6^4}-\binom{4}{2}\frac{5^2}{6^4}+\binom{4}{3}\frac{5}{6^4}-\binom{4}{4}\frac{1}{6^4}\]
+    Ahora, para saber la probabilidad que de que haya al menos un doble 6 en 24 tiradas, se define el evento $B=$"sale al menos un doble 6", $P(B)=1-P(\text{no salga ningún doble 6})$.\[P(B)=1-\left(\frac{35}{36}\right)^{24}\]
+    Faltaría comparar los resultados.
