@@ -1,0 +1,8 @@
+\item Dos amigos Luis y Pedro están con 6 personas y todos han colocado sus abrigos en un perchero. Al irse toman al azar un abrigo cada uno.
+    \begin{enumerate}
+        \item Hallar la probabilidad de que Luis tome su abrigo y Pedro no tome el suyo.\e\\
+            Luis tiene una sóla opción para elegir su propio abrigo, mientras que Pedro no puede agarrar ni el suyo ni el de Luis, así que tiene 4 opciones. Una vez estos dos toman sus abrigos, los 4 restantes tienen libertad de elección, entonces \[P(\text{Luis toma su abrigo y Pedro no})=\frac{1\x4\x4!}{6!}\]
+            Otra forma de verlo es con los eventos $A=$"Luis toma su abrigo", $B=$"Pedro toma su abrigo". Es de interés saber $P(A\cap B^c)$, entonces\[P(A\cap B^c)=P(A-A\cap B)=P(A)-P(A\cap B)=\frac{1\x5!}{6!}-\frac{1\x1\x4!}{6!}=\frac{4\x4!}{6!}\]
+        \item ¿Cuál es la probabilidad que Luis o Pedro (al menos uno) escoja su propio abrigo?
+            \[P(A\cup B)=P(A)+P(B)-P(A\cap B)=\frac{5!}{6!}+\frac{5!}{6!}-\frac{4!}{6!}=\frac{2\x5!-4!}{6!}\]
+    \end{enumerate}
