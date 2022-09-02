@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.29)  2 SEP 2022 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.29)  2 SEP 2022 13:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -98,21 +98,45 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
+) (C:\MikTex\tex/latex/halloweenmath\halloweenmath.sty
+Package: halloweenmath 2019/11/01 v0.11 (development)
+ (C:\MikTex\tex/latex/pict2e\pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+ (C:\MikTex\tex/latex/pict2e\pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 112.
+ (C:\MikTex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
+ (C:\MikTex\tex/latex/pict2e\p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+) (C:\MikTex\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+\pIIe@GRAPH=\toks23
+\@arclen=\dimen156
+\@arcrad=\dimen157
+\pIIe@tempdima=\dimen158
+\pIIe@tempdimb=\dimen159
+\pIIe@tempdimc=\dimen160
+\pIIe@tempdimd=\dimen161
+\pIIe@tempdime=\dimen162
+\pIIe@tempdimf=\dimen163
+)
+\@HwM@arrowfill@skip=\skip52
 ) (C:\MikTex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\MikTex\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (C:\MikTex\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\MikTex\tex/latex/graphics-cfg\graphics.cfg
+ (C:\MikTex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\MikTex\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
+)
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
 ) (C:\MikTex\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\MikTex\tex/latex/amsfonts\amsfonts.sty
@@ -126,21 +150,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@tracingmulticols=\count274
 \mult@box=\box52
-\multicol@leftmargin=\dimen158
+\multicol@leftmargin=\dimen166
 \c@unbalance=\count275
 \c@collectmore=\count276
 \doublecol@number=\count277
 \multicoltolerance=\count278
 \multicolpretolerance=\count279
-\full@width=\dimen159
-\page@free=\dimen160
-\premulticols=\dimen161
-\postmulticols=\dimen162
-\multicolsep=\skip52
-\multicolbaselineskip=\skip53
+\full@width=\dimen167
+\page@free=\dimen168
+\premulticols=\dimen169
+\postmulticols=\dimen170
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
 \partial@page=\box53
 \last@line=\box54
-\maxbalancingoverflow=\dimen163
+\maxbalancingoverflow=\dimen171
 \mult@rightbox=\box55
 \mult@grightbox=\box56
 \mult@firstbox=\box57
@@ -184,9 +208,9 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@minrows=\count280
 \c@columnbadness=\count281
 \c@finalcolumnbadness=\count282
-\last@try=\dimen164
-\multicolovershoot=\dimen165
-\multicolundershoot=\dimen166
+\last@try=\dimen172
+\multicolovershoot=\dimen173
+\multicolundershoot=\dimen174
 \mult@nat@firstbox=\box95
 \colbreak@box=\box96
 \mc@col@check@num=\count283
@@ -207,15 +231,15 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ) (C:\MikTex\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks23
-\thm@bodyfont=\toks24
-\thm@headfont=\toks25
-\thm@notefont=\toks26
-\thm@headpunct=\toks27
-\thm@preskip=\skip54
-\thm@postskip=\skip55
-\thm@headsep=\skip56
-\dth@everypar=\toks28
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks29
 ) (C:\MikTex\tex/latex/mdframed\mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
  (C:\MikTex\tex/latex/kvoptions\kvoptions.sty
@@ -265,47 +289,47 @@ Package zref Info: New property: abspage on input line 65.
 ) (C:\MikTex\tex/latex/needspace\needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip57
+\mdf@templength=\skip58
 \c@mdf@globalstyle@cnt=\count287
-\mdf@skipabove@length=\skip58
-\mdf@skipbelow@length=\skip59
-\mdf@leftmargin@length=\skip60
-\mdf@rightmargin@length=\skip61
-\mdf@innerleftmargin@length=\skip62
-\mdf@innerrightmargin@length=\skip63
-\mdf@innertopmargin@length=\skip64
-\mdf@innerbottommargin@length=\skip65
-\mdf@splittopskip@length=\skip66
-\mdf@splitbottomskip@length=\skip67
-\mdf@outermargin@length=\skip68
-\mdf@innermargin@length=\skip69
-\mdf@linewidth@length=\skip70
-\mdf@innerlinewidth@length=\skip71
-\mdf@middlelinewidth@length=\skip72
-\mdf@outerlinewidth@length=\skip73
-\mdf@roundcorner@length=\skip74
-\mdf@footenotedistance@length=\skip75
-\mdf@userdefinedwidth@length=\skip76
-\mdf@needspace@length=\skip77
-\mdf@frametitleaboveskip@length=\skip78
-\mdf@frametitlebelowskip@length=\skip79
-\mdf@frametitlerulewidth@length=\skip80
-\mdf@frametitleleftmargin@length=\skip81
-\mdf@frametitlerightmargin@length=\skip82
-\mdf@shadowsize@length=\skip83
-\mdf@extratopheight@length=\skip84
-\mdf@subtitleabovelinewidth@length=\skip85
-\mdf@subtitlebelowlinewidth@length=\skip86
-\mdf@subtitleaboveskip@length=\skip87
-\mdf@subtitlebelowskip@length=\skip88
-\mdf@subtitleinneraboveskip@length=\skip89
-\mdf@subtitleinnerbelowskip@length=\skip90
-\mdf@subsubtitleabovelinewidth@length=\skip91
-\mdf@subsubtitlebelowlinewidth@length=\skip92
-\mdf@subsubtitleaboveskip@length=\skip93
-\mdf@subsubtitlebelowskip@length=\skip94
-\mdf@subsubtitleinneraboveskip@length=\skip95
-\mdf@subsubtitleinnerbelowskip@length=\skip96
+\mdf@skipabove@length=\skip59
+\mdf@skipbelow@length=\skip60
+\mdf@leftmargin@length=\skip61
+\mdf@rightmargin@length=\skip62
+\mdf@innerleftmargin@length=\skip63
+\mdf@innerrightmargin@length=\skip64
+\mdf@innertopmargin@length=\skip65
+\mdf@innerbottommargin@length=\skip66
+\mdf@splittopskip@length=\skip67
+\mdf@splitbottomskip@length=\skip68
+\mdf@outermargin@length=\skip69
+\mdf@innermargin@length=\skip70
+\mdf@linewidth@length=\skip71
+\mdf@innerlinewidth@length=\skip72
+\mdf@middlelinewidth@length=\skip73
+\mdf@outerlinewidth@length=\skip74
+\mdf@roundcorner@length=\skip75
+\mdf@footenotedistance@length=\skip76
+\mdf@userdefinedwidth@length=\skip77
+\mdf@needspace@length=\skip78
+\mdf@frametitleaboveskip@length=\skip79
+\mdf@frametitlebelowskip@length=\skip80
+\mdf@frametitlerulewidth@length=\skip81
+\mdf@frametitleleftmargin@length=\skip82
+\mdf@frametitlerightmargin@length=\skip83
+\mdf@shadowsize@length=\skip84
+\mdf@extratopheight@length=\skip85
+\mdf@subtitleabovelinewidth@length=\skip86
+\mdf@subtitlebelowlinewidth@length=\skip87
+\mdf@subtitleaboveskip@length=\skip88
+\mdf@subtitlebelowskip@length=\skip89
+\mdf@subtitleinneraboveskip@length=\skip90
+\mdf@subtitleinnerbelowskip@length=\skip91
+\mdf@subsubtitleabovelinewidth@length=\skip92
+\mdf@subsubtitlebelowlinewidth@length=\skip93
+\mdf@subsubtitleaboveskip@length=\skip94
+\mdf@subsubtitlebelowskip@length=\skip95
+\mdf@subsubtitleinneraboveskip@length=\skip96
+\mdf@subsubtitleinnerbelowskip@length=\skip97
  (C:\MikTex\tex/latex/mdframed\md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
@@ -314,33 +338,33 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@splitbox@one=\box100
 \mdf@splitbox@two=\box101
 \mdf@splitbox@save=\box102
-\mdfsplitboxwidth=\skip97
-\mdfsplitboxtotalwidth=\skip98
-\mdfsplitboxheight=\skip99
-\mdfsplitboxdepth=\skip100
-\mdfsplitboxtotalheight=\skip101
-\mdfframetitleboxwidth=\skip102
-\mdfframetitleboxtotalwidth=\skip103
-\mdfframetitleboxheight=\skip104
-\mdfframetitleboxdepth=\skip105
-\mdfframetitleboxtotalheight=\skip106
-\mdffootnoteboxwidth=\skip107
-\mdffootnoteboxtotalwidth=\skip108
-\mdffootnoteboxheight=\skip109
-\mdffootnoteboxdepth=\skip110
-\mdffootnoteboxtotalheight=\skip111
-\mdftotallinewidth=\skip112
-\mdfboundingboxwidth=\skip113
-\mdfboundingboxtotalwidth=\skip114
-\mdfboundingboxheight=\skip115
-\mdfboundingboxdepth=\skip116
-\mdfboundingboxtotalheight=\skip117
-\mdf@freevspace@length=\skip118
-\mdf@horizontalwidthofbox@length=\skip119
-\mdf@verticalmarginwhole@length=\skip120
-\mdf@horizontalspaceofbox=\skip121
-\mdfsubtitleheight=\skip122
-\mdfsubsubtitleheight=\skip123
+\mdfsplitboxwidth=\skip98
+\mdfsplitboxtotalwidth=\skip99
+\mdfsplitboxheight=\skip100
+\mdfsplitboxdepth=\skip101
+\mdfsplitboxtotalheight=\skip102
+\mdfframetitleboxwidth=\skip103
+\mdfframetitleboxtotalwidth=\skip104
+\mdfframetitleboxheight=\skip105
+\mdfframetitleboxdepth=\skip106
+\mdfframetitleboxtotalheight=\skip107
+\mdffootnoteboxwidth=\skip108
+\mdffootnoteboxtotalwidth=\skip109
+\mdffootnoteboxheight=\skip110
+\mdffootnoteboxdepth=\skip111
+\mdffootnoteboxtotalheight=\skip112
+\mdftotallinewidth=\skip113
+\mdfboundingboxwidth=\skip114
+\mdfboundingboxtotalwidth=\skip115
+\mdfboundingboxheight=\skip116
+\mdfboundingboxdepth=\skip117
+\mdfboundingboxtotalheight=\skip118
+\mdf@freevspace@length=\skip119
+\mdf@horizontalwidthofbox@length=\skip120
+\mdf@verticalmarginwhole@length=\skip121
+\mdf@horizontalspaceofbox=\skip122
+\mdfsubtitleheight=\skip123
+\mdfsubsubtitleheight=\skip124
 \c@mdfcountframes=\count288
 
 ****** mdframed patching \endmdf@trivlist
@@ -353,9 +377,9 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@zref@counter=\count292
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (C:\MikTex\tex/latex/pgf/frontendlayer\tikz.sty (C:\MikTex\tex/latex/pgf/basiclayer\pgf.sty (C:\MikTex\tex/latex/pgf/utilities\pgfrcs.sty (C:\MikTex\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks29
-\pgfutil@tempdima=\dimen167
-\pgfutil@tempdimb=\dimen168
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen175
+\pgfutil@tempdimb=\dimen176
  (C:\MikTex\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\MikTex\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box103
 ) (C:\MikTex\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\MikTex\tex/generic/pgf\pgf.revision.tex)
@@ -365,30 +389,30 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
  (C:\MikTex\tex/latex/pgf/basiclayer\pgfcore.sty (C:\MikTex\tex/latex/pgf/systemlayer\pgfsys.sty (C:\MikTex\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
  (C:\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks30
-\pgfkeys@temptoks=\toks31
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
  (C:\MikTex\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks32
+\pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen169
-\pgf@y=\dimen170
-\pgf@xa=\dimen171
-\pgf@ya=\dimen172
-\pgf@xb=\dimen173
-\pgf@yb=\dimen174
-\pgf@xc=\dimen175
-\pgf@yc=\dimen176
-\pgf@xd=\dimen177
-\pgf@yd=\dimen178
+\pgf@x=\dimen177
+\pgf@y=\dimen178
+\pgf@xa=\dimen179
+\pgf@ya=\dimen180
+\pgf@xb=\dimen181
+\pgf@yb=\dimen182
+\pgf@xc=\dimen183
+\pgf@yc=\dimen184
+\pgf@xd=\dimen185
+\pgf@yd=\dimen186
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
 \c@pgf@counta=\count293
 \c@pgf@countb=\count294
 \c@pgf@countc=\count295
 \c@pgf@countd=\count296
-\t@pgf@toka=\toks33
-\t@pgf@tokb=\toks34
-\t@pgf@tokc=\toks35
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
 \pgf@sys@id@count=\count297
  (C:\MikTex\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
@@ -407,38 +431,38 @@ File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
  (C:\MikTex\tex/generic/pgf/math\pgfmath.code.tex (C:\MikTex\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\MikTex\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\MikTex\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen179
+\pgfmath@dimen=\dimen187
 \pgfmath@count=\count300
 \pgfmath@box=\box104
-\pgfmath@toks=\toks36
-\pgfmath@stack@operand=\toks37
-\pgfmath@stack@operation=\toks38
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 ) (C:\MikTex\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\MikTex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\MikTex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\MikTex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\MikTex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\MikTex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\MikTex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\MikTex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\MikTex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\MikTex\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count301
 )) (C:\MikTex\tex/generic/pgf/math\pgfint.code.tex) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen180
-\pgf@picmaxx=\dimen181
-\pgf@picminy=\dimen182
-\pgf@picmaxy=\dimen183
-\pgf@pathminx=\dimen184
-\pgf@pathmaxx=\dimen185
-\pgf@pathminy=\dimen186
-\pgf@pathmaxy=\dimen187
-\pgf@xx=\dimen188
-\pgf@xy=\dimen189
-\pgf@yx=\dimen190
-\pgf@yy=\dimen191
-\pgf@zx=\dimen192
-\pgf@zy=\dimen193
+\pgf@picminx=\dimen188
+\pgf@picmaxx=\dimen189
+\pgf@picminy=\dimen190
+\pgf@picmaxy=\dimen191
+\pgf@pathminx=\dimen192
+\pgf@pathmaxx=\dimen193
+\pgf@pathminy=\dimen194
+\pgf@pathmaxy=\dimen195
+\pgf@xx=\dimen196
+\pgf@xy=\dimen197
+\pgf@yx=\dimen198
+\pgf@yy=\dimen199
+\pgf@zx=\dimen256
+\pgf@zy=\dimen257
 ) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen194
-\pgf@path@lasty=\dimen195
+\pgf@path@lastx=\dimen258
+\pgf@path@lasty=\dimen259
 ) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen196
-\pgf@shorten@start@additional=\dimen197
+\pgf@shorten@end@additional=\dimen260
+\pgf@shorten@start@additional=\dimen261
 ) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box105
@@ -447,12 +471,12 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picture@serial@count=\count302
 ) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen198
+\pgflinewidth=\dimen262
 ) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen199
-\pgf@pt@y=\dimen256
-\pgf@pt@temp=\dimen257
+\pgf@pt@x=\dimen263
+\pgf@pt@y=\dimen264
+\pgf@pt@temp=\dimen265
 ) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -461,10 +485,10 @@ File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen258
+\pgfarrowsep=\dimen266
 ) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen259
+\pgf@max=\dimen267
 \pgf@sys@shading@range@num=\count303
 \pgf@shadingcount=\count304
 ) (C:\MikTex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
@@ -487,32 +511,32 @@ File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen260
-\pgf@nodesepend=\dimen261
+\pgf@nodesepstart=\dimen268
+\pgf@nodesepend=\dimen269
 ) (C:\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\MikTex\tex/latex/pgf/utilities\pgffor.sty (C:\MikTex\tex/latex/pgf/utilities\pgfkeys.sty (C:\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\MikTex\tex/latex/pgf/math\pgfmath.sty (C:\MikTex\tex/generic/pgf/math\pgfmath.code.tex)) (C:\MikTex\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
  (C:\MikTex\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen262
-\pgffor@skip=\dimen263
-\pgffor@stack=\toks39
-\pgffor@toks=\toks40
+\pgffor@iter=\dimen270
+\pgffor@skip=\dimen271
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 )) (C:\MikTex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
  (C:\MikTex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count305
-\pgfplotmarksize=\dimen264
+\pgfplotmarksize=\dimen272
 )
-\tikz@lastx=\dimen265
-\tikz@lasty=\dimen266
-\tikz@lastxsaved=\dimen267
-\tikz@lastysaved=\dimen268
-\tikz@lastmovetox=\dimen269
-\tikz@lastmovetoy=\dimen270
-\tikzleveldistance=\dimen271
-\tikzsiblingdistance=\dimen272
+\tikz@lastx=\dimen273
+\tikz@lasty=\dimen274
+\tikz@lastxsaved=\dimen275
+\tikz@lastysaved=\dimen276
+\tikz@lastmovetox=\dimen277
+\tikz@lastmovetoy=\dimen278
+\tikzleveldistance=\dimen279
+\tikzsiblingdistance=\dimen280
 \tikz@figbox=\box110
 \tikz@figbox@bg=\box111
 \tikz@tempbox=\box112
@@ -536,32 +560,32 @@ Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count314
 \calc@Bcount=\count315
-\calc@Adimen=\dimen273
-\calc@Bdimen=\dimen274
-\calc@Askip=\skip124
-\calc@Bskip=\skip125
+\calc@Adimen=\dimen281
+\calc@Bdimen=\dimen282
+\calc@Askip=\skip125
+\calc@Bskip=\skip126
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count316
-\calc@Cskip=\skip126
+\calc@Cskip=\skip127
 ) (C:\MikTex\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count317
-\l_MT_multwidth_dim=\dimen275
-\origjot=\skip127
-\l_MT_shortvdotswithinadjustabove_dim=\dimen276
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen277
-\l_MT_above_intertext_sep=\dimen278
-\l_MT_below_intertext_sep=\dimen279
-\l_MT_above_shortintertext_sep=\dimen280
-\l_MT_below_shortintertext_sep=\dimen281
+\l_MT_multwidth_dim=\dimen283
+\origjot=\skip128
+\l_MT_shortvdotswithinadjustabove_dim=\dimen284
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen285
+\l_MT_above_intertext_sep=\dimen286
+\l_MT_below_intertext_sep=\dimen287
+\l_MT_above_shortintertext_sep=\dimen288
+\l_MT_below_shortintertext_sep=\dimen289
 \xmathstrut@box=\box114
-\xmathstrut@dim=\dimen282
+\xmathstrut@dim=\dimen290
 ) (C:\MikTex\tex/generic/babel\babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
 \babel@savecnt=\count318
-\U@D=\dimen283
+\U@D=\dimen291
 \l@unhyphenated=\language79
  (C:\MikTex\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
@@ -588,7 +612,7 @@ Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@qlevel=\count323
 \csq@maxlvl=\count324
 \csq@tshold=\count325
-\csq@ltx@everypar=\toks41
+\csq@ltx@everypar=\toks42
  (C:\MikTex\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
@@ -607,27 +631,27 @@ File: tikzlibrarytrees.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\MikTex\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen284
+\arrowsize=\dimen292
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.aux)
 \openout1 = `G2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -666,16 +690,16 @@ LaTeX Font Info:    ... okay on input line 26.
 (C:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count326
-\scratchdimen=\dimen285
+\scratchdimen=\dimen293
 \scratchbox=\box115
 \nofMPsegments=\count327
 \nofMParguments=\count328
-\everyMPshowfont=\toks42
+\everyMPshowfont=\toks43
 \MPscratchCnt=\count329
-\MPscratchDim=\dimen286
+\MPscratchDim=\dimen294
 \MPnumerator=\count330
 \makeMPintoPDFobject=\count331
-\everyMPtoPDFconversion=\toks43
+\everyMPtoPDFconversion=\toks44
 ) (C:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (C:\MikTex\tex/latex/grfext\grfext.sty
@@ -688,27 +712,27 @@ Package grfext Info: Graphics extension search list:
  (C:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package csquotes Info: Making character " active on input line 26.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+Package csquotes Info: Making character " active on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
  (C:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
  (C:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (Ejs/e1.tex) (Ejs/e2.tex [1
 
-{C:/Users/benit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (Ejs/e3.tex) (Ejs/e4.tex [2]) (Ejs/e5.tex) (Ejs/e6.tex) (Ejs/e7.tex [3]) (Ejs/e8.tex) (Ejs/e9.tex) (Ejs/e10.tex) (Ejs/e11.tex [4]) (Ejs/e12.tex) (Ejs/e13.tex) (Ejs/e14.tex) (Ejs/e15.tex) (Ejs/e16.tex) (Ejs/e17.tex) (Ejs/e18.tex) (Ejs/e19.tex) [5] (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.aux) ) 
+{C:/Users/benit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (Ejs/e3.tex) (Ejs/e4.tex [2]) (Ejs/e5.tex) (Ejs/e6.tex) (Ejs/e7.tex [3]) (Ejs/e8.tex) (Ejs/e9.tex [4]) (Ejs/e10.tex) (Ejs/e11.tex) (Ejs/e12.tex) (Ejs/e13.tex) (Ejs/e14.tex) (Ejs/e15.tex) (Ejs/e16.tex) (Ejs/e17.tex) (Ejs/e18.tex) (Ejs/e19.tex) [5] (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.aux) ) 
 Here is how much of TeX's memory you used:
- 19499 strings out of 478582
- 388924 string characters out of 2860759
- 728652 words of memory out of 3000000
- 37280 multiletter control sequences out of 15000+600000
+ 19923 strings out of 478582
+ 396386 string characters out of 2860759
+ 761546 words of memory out of 3000000
+ 37691 multiletter control sequences out of 15000+600000
  475902 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,80p,630b,1592s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 84i,13n,80p,630b,1579s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.pdf" (5 pages, 149454 bytes).
+Output written on "c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.pdf" (5 pages, 150735 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

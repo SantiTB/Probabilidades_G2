@@ -1,4 +1,27 @@
 \item En una fiesta se reparten al azar 10 caramelos entre 5 niños (un niño puede recibir más de un caramelo y obviamente otros niños pueden no recibir caramelos). Mi sobrino se encuentra en el grupo de niños. ¿Cuál es la probabilidad de que mi sobrino quede sin caramelo? (Ayuda: es conveniente suponer que tanto los niños como los caramelos están numerados).\e\\
-    Se puede pensar como sigue\\
-    %Insertar grafico
-    $P(\text{no recibir})=1-P(recibir)=1-(P(\text{recibir 1})+\cdots+P(\text{recibir 10}))$
+    Se puede pensar en que para los casos totales, tengo que repartir 10 caramelos entre 5 chicos, como se muestra en el siguiente gráfico:
+    \begin{center}
+        \begin{tikzpicture}
+            \draw [thick, orange] (-1.5,0) -- (-1.5,0.5);
+            \draw [thick, orange] (1.5,0)  -- (1.5,0.5);
+            \draw [thick, orange] (3.5,0)  -- (3.5,0.5);
+            \draw [thick, orange] (-3.5,0) -- (-3.5,0.5);
+            \foreach \x in {-5,...,4}{
+                \node at (\x,0.25) {$\bigpumpkin$};
+            }
+        \end{tikzpicture}
+    \end{center}
+    En donde las barras separan los caramelos que recibe cada niño. Éste en un caso de permutaciones con repetición, por ende hay\[\#\text{casos totales}=\frac{14!}{10!4!}\]
+    Mientras que para los casos favorables tengo que repartir esos 10 caramelos entre 4 niños, ya que hay uno que no debe recibir nada:
+    \begin{center}
+        \begin{tikzpicture}
+            \draw [thick, orange] (-1.5,0) -- (-1.5,0.5);
+            \draw [thick, orange] (1.5,0)  -- (1.5,0.5);
+            \draw [thick, orange] (3.5,0)  -- (3.5,0.5);
+            \foreach \x in {-5,...,4}{
+                \node at (\x,0.25) {$\bigpumpkin$};
+            }
+        \end{tikzpicture}
+    \end{center}
+    Entonces\[\#\text{casos favorables}=\frac{13!}{10!3!}\]
+    Por lo tanto\[P(\text{no recibir caramelo})=\frac{13!10!4!}{14!10!3!}=\frac{2}{7}\]
