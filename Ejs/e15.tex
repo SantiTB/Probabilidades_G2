@@ -1,0 +1,17 @@
+\item Una urna tiene 5 bolillas rojas, 6 azules y 8 verdes. Si se eligen 3 bolillas al azar. ¿Cuál es la probabilidad que:
+    \begin{enumerate}
+        \item todas sean del mismo color?
+            \begin{center}
+                $R=$"todas son rojas"\\
+                $A=$"todas son azules"\\
+                $V=$"todas son verdes"\\
+                $B=$"todas del mismo color"
+            \end{center}
+            Como $R,A$ y $V$ son mutuamente excluyentes:\[P(B)=P(R)+P(A)+P(V)=\frac{5\x4\x3}{19\x18\x17}+\frac{6\x5\x4}{19\x18\x17}+\frac{8\x7\x6}{19\x18\x17}\]
+        \item todas sean de distinto color?
+            \[P(\text{todas distintas})=\frac{5\x6\x8}{19\x18\x17}\]
+            ya que puedo agarrar entre 5 rojas, luego entre 6 azules y por último entre 8 verdes.
+        \item Repetir los cálculos anteriores suponiendo que el muestreo se realiza con sustitución.\e\\
+            Para que todas sean del mismo color ahora se tiene que \[P(B)=\frac{5^3}{19^3}+\frac{6^3}{19^3}+\frac{8^3}{19^3}\]
+            Mientras que para que todas sean distintas\[P(\text{todas distintas})=\frac{5\x6\x8}{19^3}\]
+    \end{enumerate}
