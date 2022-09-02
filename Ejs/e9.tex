@@ -1,4 +1,3 @@
 \item En una reunión hay 8 personas ¿Cuál es la probabilidad de que al menos 2 de ellas cumplan años el mismo día?¿Qué suposiciones son necesarias para el cálculo realizado?
     \[P(\text{al menos dos cumplan el mismo día})=1-P(\text{nadie comparta cumpleaños})\]
-    Para que nadie cumpla el mismo día, la primer persona tiene 365 opciones, la segunda 364 y así sucesivamente hasta llegar a la octava, mientras que los casos totales son $365^8$, con estos datos se tiene que
-    \[P(\text{al menos dos cumplan el mismo día})=0,08\]
+    Supongamos que ninguna persona nació en año bisiesto. Para los casos favorables, la primera persona no tiene restricción, así que hay 365 opciones, la segunda puede cumplir en 364, para evitar cumplir el mismo día que la primera, la tercera 363 y así hasta la octava. Para los casos totales, hay un total de $365^8$. Entonces\[P(\text{cumplir el mismo día})=1-\frac{365\cdot364\cdot363\cdot362\cdot361\cdot360\cdot359\cdot358}{365^8}=0.0743\]
