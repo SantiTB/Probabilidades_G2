@@ -1,6 +1,28 @@
 \item Tres matrimonios han comprado boletos para el teatro y se sientan en una fila formada por sólo seis asientos. Si toman sus asientos de un modo aleatorio:
     \begin{enumerate}
         \item ¿cuál es la probabilidad de que Juan y Paula (marido y mujer) se sienten en los dos asientos de la extrema izquierda?
-        \item ¿cuál es la probabilidad de que Juan y Paula terminen sentados en forma contigua?
-        \item ¿cuál es la probabilidad de que por lo menos una de las esposas quede sentada junto a su marido?
+            \begin{center}
+                \begin{tikzpicture}
+                    \draw [thick, orange] (-2.75,0) -- (-3.75,0);
+                    \draw [thick, orange] (-1.5,0)  -- (-2.5,0);
+                    \draw [thick, orange] (-0.25,0)  -- (-1.25,0);
+                    \draw [thick, orange] (0,0)  -- (1,0);
+                    \draw [thick, orange] (1.25,0)  -- (2.25,0);
+                    \draw [thick, orange] (2.5,0)  -- (3.5,0);
+                    \node at (-3.25,0.25) {$\bigskull$};
+                    \node at (-2,0.25) {$\skull$};
+                    \node [blue] at (-0.75,0.25) {$\skull$};
+                    \node [blue] at (0.5,0.25) {$\skull$};
+                    \node [blue] at (1.75,0.25) {$\skull$};
+                    \node [blue] at (3,0.25) {$\skull$};
+                \end{tikzpicture}
+            \end{center}
+            Supongamos que Juan y Paula están representados con color negro, mientras que el resto con color azul. Juan y Paula se pueden intercambiar entre sí y seguirían en el extremo izquierdo, mientras que las otras 4 personas también pueden permutar libremente, por lo tanto, siendo $A=$"Juan y Paula se sientan en el extremo izquierdo"\[P(A)=\frac{2!4!}{6!}=\frac{1}{15}\]
+        \item ¿cuál es la probabilidad de que Juan y Paula terminen sentados en forma contigua?\e\\
+            Puede pensarse como que Juan y Paula son uno sólo, de esta forma hay que sentar a 5 personas en 5 asientos y hay que tener en cuenta que Juan y Paula pueden intercambiar entre sí\[P(\text{Juan y Paula juntos})=\frac{2!5!}{6!}=\frac{1}{3}\]
+        \item ¿cuál es la probabilidad de que por lo menos una de las esposas quede sentada junto a su marido?\e\\
+            Sea $B=$"hay al menos una pareja junta" y $B_i=$"la pareja $i$ está junta" se tiene por el principio de inclusión-exclusión:\[P(B)=P(B_1\cup B_2\cup B_3)=\sum\limits_{i=1}^3P(B_i)-\sum\limits_{i=1}^3\sum\limits_{j>i}^3P(B_iB_j)+P(B_1B_2B_3)\]
+            La probabilidad de que una pareja esté junta es la misma para todas las parejas y se calculó en el inciso anterior. Supongamos que ahora quiero que además de Paula y Juan, la pareja 2 también esté junta. Puedo pensar a estas dos parejas como unidades y acomodo a "4" personas, teniendo en cuenta que las parejas se pueden intercambiar lugares, por ende \[P(B_1B_2)=\frac{2!2!4!}{6!}\]
+            y esto vale para cualquier par de parejas. Finalmente para que las tres queden juntas, al igual que antes pienso que hay 3! formas de permutar a las parejas y además cada una puede intercambiar con su compañero/a\[P(B_1B_2B_3)=\frac{3!2!2!2!}{6!}\]
+            Por lo tanto,\[P(B)=\binom{3}{1}\frac{2!5!}{6!}-\binom{3}{2}\frac{4!2!2!}{6!}+\binom{3}{3}\frac{3!2!2!2!}{6!}\]
     \end{enumerate}
