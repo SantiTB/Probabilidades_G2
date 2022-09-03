@@ -1,0 +1,37 @@
+\item Se forma una fila de 8 números al azar con dos números 1, dos números 2, dos números 3 y dos números 4. ¿Cuál es la probabilidad de que no haya números iguales consecutivos?\e\\
+    Sea $A=$"no hay dos números iguales consecutivos", entonces $A^c=$"hay al menos un par consecutivo". Si defino $A_i=$"el número $i$ está consecutivo", se tiene que\[P(A^c)=P(A_1\cup A_2\cup A_3\cup A_4)\]
+    Nuevamente se usará el principio de inclusión-exclusión\[P(A^c)=\sum\limits_{i=1}^4P(i)-\sum\limits_{i=1}^4\sum\limits_{j>i}^4P(A_iA_j)+\sum\limits_{i=1}^4\sum\limits_{j>i}^4\sum\limits_{k>j}P(A_iA_jA_k)-P(A_1A_2A_3A_4)\]
+    Para la probabilidad de que el 1 salga consecutivo se puede pensar en el siguiente diagrama
+    \begin{center}
+        \begin{tikzpicture}
+            \draw [thick, orange] (-2.75,0) -- (-3.75,0);
+            \draw [thick, orange] (-1.5,0)  -- (-2.5,0);
+            \draw [thick, orange] (-0.25,0)  -- (-1.25,0);
+            \draw [thick, orange] (0,0)  -- (1,0);
+            \draw [thick, orange] (1.25,0)  -- (2.25,0);
+            \draw [thick, orange] (2.5,0)  -- (3.5,0);
+            \draw [thick, orange] (3.75,0)  -- (4.75,0);
+            \filldraw[color=red!60, fill=red!5, very thick](-3.25,0.25) circle (0.2);
+            \node at (-3.25,0.25) {$1$};
+        \end{tikzpicture}
+    \end{center}
+    En donde el 1 simboliza el par 1 y los 6 lugares restantes son para el resto de los números, entonces\[P(A_1)=\frac{\frac{7!}{2!2!2!}}{\frac{8!}{{2!}^4}}=\frac{1}{4}\]
+    y esto es igual para cada $A_i$. Para el caso de que dos pares sean consecutivos, se procede de manera similar:
+    \begin{center}
+        \begin{tikzpicture}
+            \draw [thick, orange] (-2.75,0) -- (-3.75,0);
+            \draw [thick, orange] (-1.5,0)  -- (-2.5,0);
+            \draw [thick, orange] (-0.25,0)  -- (-1.25,0);
+            \draw [thick, orange] (0,0)  -- (1,0);
+            \draw [thick, orange] (1.25,0)  -- (2.25,0);
+            \draw [thick, orange] (2.5,0)  -- (3.5,0);
+            \filldraw[color=red!60, fill=red!5, very thick](-3.25,0.25) circle (0.2);
+            \node at (-3.25,0.25) {$1$};
+            \filldraw[color=red!60, fill=red!5, very thick](-2,0.25) circle (0.2);
+            \node at (-2,0.25) {$2$};
+        \end{tikzpicture}
+    \end{center}
+    \[P(A_1A_2)=\frac{\frac{6!}{2!2!}}{\frac{8!}{2!^4}}=\frac{1}{14}\]
+    Esto también se cumple para cualquier par. En el caso de tres, se llega a\[P(A_iA_jA_k)=\frac{\frac{5!}{2!}}{\frac{8!}{2!^4}}=\frac{1}{42}\]
+    Y Finalmente para que los cuatro sean consecutivos\[P(A_1A_2A_3A_4)=\frac{4!}{\frac{8!}{2!^4}}=\frac{1}{105}\]
+    Por lo tanto\[P(A)=1-\left[\binom{4}{1}\frac{1}{4}-\binom{4}{2}\frac{1}{14}+\binom{4}{3}\frac{1}{42}-\binom{4}{4}\frac{1}{105}\right]=\frac{12}{35}\]

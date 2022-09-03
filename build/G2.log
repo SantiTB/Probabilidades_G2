@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.29)  3 SEP 2022 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.29)  3 SEP 2022 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -722,19 +722,19 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (Ejs/e1.tex) (Ejs/e2.tex [1
 
-{C:/Users/benit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (Ejs/e3.tex) (Ejs/e4.tex [2]) (Ejs/e5.tex) (Ejs/e6.tex) (Ejs/e7.tex [3]) (Ejs/e8.tex) (Ejs/e9.tex [4]) (Ejs/e10.tex) (Ejs/e11.tex) (Ejs/e12.tex [5]) (Ejs/e13.tex) (Ejs/e14.tex [6]) (Ejs/e15.tex) (Ejs/e16.tex [7]) (Ejs/e17.tex [8]) (Ejs/e18.tex) (Ejs/e19.tex) [9] (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.aux) ) 
+{C:/Users/benit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (Ejs/e3.tex) (Ejs/e4.tex [2]) (Ejs/e5.tex) (Ejs/e6.tex) (Ejs/e7.tex [3]) (Ejs/e8.tex) (Ejs/e9.tex [4]) (Ejs/e10.tex) (Ejs/e11.tex) (Ejs/e12.tex [5]) (Ejs/e13.tex) (Ejs/e14.tex [6]) (Ejs/e15.tex) (Ejs/e16.tex [7]) (Ejs/e17.tex [8]) (Ejs/e18.tex) (Ejs/e19.tex [9]) [10] (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.aux) ) 
 Here is how much of TeX's memory you used:
- 19930 strings out of 478582
- 396511 string characters out of 2860759
- 761549 words of memory out of 3000000
- 37698 multiletter control sequences out of 15000+600000
+ 19936 strings out of 478582
+ 396592 string characters out of 2860759
+ 761551 words of memory out of 3000000
+ 37704 multiletter control sequences out of 15000+600000
  475902 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,80p,630b,1579s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.pdf" (9 pages, 167618 bytes).
+<C:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_2\build\G2.pdf" (10 pages, 179851 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
