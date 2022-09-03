@@ -1,0 +1,26 @@
+\item En una ciudad hay 4 técnicos en reparación de televisores. Se han descompuesto 4 televisores.
+    \begin{enumerate}
+        \item Hallar la probabilidad que el técnico A sea llamado.\e\\
+            Suponiendo que llaman al técnico de manera totalmente aleatoria, podemos plantear los siguientes eventos:\begin{center}
+                $A_i=$"llaman al técnico A por el televisor $i$"\\
+                $A=$"el técnico A es llamado al menos una vez"
+            \end{center}
+            Entonces\[P(A)=P(A_1\cup A_2\cup A_3\cup A_4)\]
+            Por el principio de inclusión-exclusión:
+            \[P(A)=\sum\limits_{i=1}^4P(A_i)-\sum\limits_{i=1}^4\sum\limits_{j>i}^4P(A_iA_j)+\sum\limits_{i=1}^4\sum\limits_{j>i}^4\sum\limits_{k>j}^4P(A_iA_jA_k)-P(A_1A_2A_3A_4)\]
+            Como cada llamada es aleatoria \begin{align*}
+                P(A_i)&=\frac{1}{4}\quad\forall i\\
+                P(A_iA_j)&=\frac{1}{4^2}\quad\forall i,j\\
+                P(A_iA_jA_k)&=\frac{1}{4^3}\quad\forall i,j,k\\
+                P(A_1A_2A_3A_4)&=\frac{1}{4^4}
+            \end{align*}
+            Entonces,
+            \[P(A)=\binom{4}{1}\frac{1}{4}-\binom{4}{2}\frac{1}{4^2}+\binom{4}{3}\frac{1}{4^3}-\binom{4}{4}\frac{1}{4^4}=\frac{175}{256}\]
+        \item Hallar la probabilidad que exactamente $k$ técnicos sean llamados ($k=1,2,3,4$).\e\\
+            Sea $B_k=$"$k$ técnicos son llamados" y $C_A=$"llaman únicamente al técnico A", se tiene que \[P(C_A)=\frac{1}{4^4}\]
+            Esta probabilidad es la misma para el resto de técnicos, y como son eventos mutuamente excluyentes:\[P(B_1)=\binom{4}{1}\frac{1}{4^4}\]
+            Supongamos ahora que quiero que llamen a dos en particular, sí o sí hay dos llamados que tienen que estar destinados a los involucrados, los otros dos pueden repartirse entre ambos de cualquier manera y hay que tener en cuenta que el orden de las llamadas entre estos dos puede ser cualquiera. Sea $D_{AB}=$"llaman al técnico A y B", entonces\[P(D_{AB})=\frac{1}{4}\x\frac{1}{4}\x\frac{2}{4}\x\frac{2}{4}\x\frac{4!}{2!2!}\]
+            Y esta probabilidad es la misma para cualquier par que elija, por lo tanto\[P(B_2)=\binom{4}{2}\frac{4}{4^4}\]
+            Para el caso de 3 se llega a\[P(B_3)=\binom{4}{3}\frac{3}{4^4}\]
+            y para el de 4 \[P(B_4)=\binom{4}{4}\frac{1}{4^4}\]
+    \end{enumerate}
