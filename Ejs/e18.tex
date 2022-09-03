@@ -1,0 +1,6 @@
+\item Se elije al azar un entero entre 1 y 100000. ¿Cuál es la probabilidad de que no sea múltiplo ni de 2 ni de 3 ni de 5?\e\\
+    Se define $A=$"el número no es múltiplo de 2 ni 3 ni 5". Entonces $A^c=$"el número es múltiplo de 2 o 3 o 5". Sean $M_i=$"el número es múltiplo de i", se tiene que \[P(A)=1-P(A^c)=1-P(M_2\cup M_3\cup M_5)\]
+    Por el principio de inclusión-exclusión\[P(M_2\cup M_3\cup M_5)=P(M_2)+P(M_3)+P(M_5)-P(M_6)-P(M_{10})-P(M_{15})+P(M_{30})\]
+    De donde sigue que
+    \[P(A^c)=\frac{1}{2}+\frac{33333}{100000}+\frac{1}{5}-\frac{16666}{100000}-\frac{1}{10}-\frac{6666}{100000}+\frac{3333}{100000}=0.73334\]
+    Entonces\[P(A)=0.26666\]
